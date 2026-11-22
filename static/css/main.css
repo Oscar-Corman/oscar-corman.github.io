@@ -22,6 +22,14 @@ h3 {
     font-size: 1.2em;
 }
 
+.about-page .content p {
+    margin-bottom: 1.5em;
+}
+
+.about-page .content p:last-child {
+    margin-bottom: 0;
+}
+
 @media (max-width: 1199px) {
     .about-page .content {
         width: 90%;
