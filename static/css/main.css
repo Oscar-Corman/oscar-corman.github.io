@@ -22,6 +22,20 @@ h3 {
     font-size: 1.2em;
 }
 
+@media (max-width: 1199px) {
+    .about-page .content {
+        width: 90%;
+        justify-self: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about-page .content {
+        width: 70%;
+        justify-self: center;
+    }
+}
+
 /* Heading / index header layout */
 .heading,
 .gallery-header-wrapper {
