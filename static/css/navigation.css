@@ -43,6 +43,16 @@
     gap: 0.3em;
 }
 
+.language-switch {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.language-switch .nav-links {
+    margin-left: 0;
+}
+
 /* which theme icon shows is decided by the html.dark-mode class, not by JS */
 #icon-moon,
 html.dark-mode #icon-sun {
@@ -92,6 +102,9 @@ html.dark-mode .logo:hover {
     .nav-links {
         display: block;
         width: 100%;
+    }
+    .language-switch .nav-links {
+        width: auto;
     }
     .theme-toggle {
         display: inline-flex;

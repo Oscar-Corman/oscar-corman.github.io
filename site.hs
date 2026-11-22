@@ -119,8 +119,8 @@ siteUrl = "https://oscar-corman.github.io"
 
 siteCtx :: Integer -> Context String
 siteCtx year =
-  constField "site_name"          "portfolio"
-    <> constField "author_name"        "Portfolio"
+  constField "site_name"          "Oscar Corman"
+    <> constField "author_name"        "Oscar Corman"
     <> constField "site_url"           siteUrl
     <> constField "copyright_year"     (show year)
     <> escapedMetadataField "title"
