@@ -23,8 +23,8 @@ assume_yes=false
 [ "${1:-}" = "--yes" ] && assume_yes=true
 
 GH="$(command -v gh)" || die "gh CLI not found"
-"$GH" auth token --user "$GH_USER" >/dev/null 2>&1 \
-  || die "gh has no login for $GH_USER. Run 'gh auth login', then 'gh auth switch' back to your work account."
+"$GH" auth token >/dev/null 2>&1 \
+  || die "gh has no active login. Run 'gh auth login'."
 
 # Pin this clone to the repository owner's account so Git pushes use the
 # correct credentials without changing the active gh account.
@@ -33,7 +33,7 @@ ensure_push_credential() {
   git config --local --unset-all "$CRED_KEY" 2>/dev/null || true
   git config --local --add "$CRED_KEY" ""
   git config --local --add "$CRED_KEY" \
-    "!f() { test \"\$1\" = get || exit 0; echo username=$GH_USER; echo \"password=\$($GH auth token --user $GH_USER)\"; }; f"
+    "!f() { test \"\$1\" = get || exit 0; echo username=$GH_USER; echo \"password=\$($GH auth token)\"; }; f"
   echo "Configured this clone to push as $GH_USER."
 }
 
@@ -70,7 +70,7 @@ git push origin "$BRANCH"
 sha="$(git rev-parse HEAD)"
 
 # Scoped to this process; the active gh account stays untouched.
-GH_TOKEN="$("$GH" auth token --user "$GH_USER")"
+GH_TOKEN="$("$GH" auth token)"
 export GH_TOKEN
 
 step "Actions run"
