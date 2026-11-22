@@ -4,7 +4,6 @@ main {
     display: grid;
     grid-row-gap: 2em;
 }
-
 h1 {
     width: fit-content;
     border-bottom: 0.15em solid;
@@ -72,6 +71,12 @@ h3 {
     max-height: 30em;
 }
 
+.image>p>img.homepage-portrait {
+    width: 480px;
+    height: auto;
+    max-height: none;
+}
+
 /* The about portrait stays at the size approved in November 2026 (85% of the
    old 30%-wide column), now that the column is wider. */
 .image>p>img.portrait-about {
@@ -112,6 +117,9 @@ h3 {
     /* On a phone the portrait introduces the page without filling the screen. */
     .image>p>img.portrait {
         max-height: 18em;
+    }
+    .image>p>img.homepage-portrait {
+        width: 384px;
     }
     .image>p>img.portrait-about {
         max-height: 15.5em;
@@ -159,4 +167,5 @@ h3 {
     .paragraph:nth-child(even)>.text {
         grid-column: 3;
     }
+
 }

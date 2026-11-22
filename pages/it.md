@@ -1,17 +1,17 @@
 ---
-title: Oscar Corman
+title: Consapevolezza Incarnata
 slug: it
 lang: it
-description: "Pratica per coltivare la fiducia in sé attraverso il corpo."
+description: "Consapevolezza Incarnata. Percorsi per la sicurezza e la presenza di sé."
 ---
 
 ::: article
 ::: paragraph
 ::: text
-Pratica per coltivare la fiducia in sé attraverso il corpo.
+Percorsi per la sicurezza e la presenza di sé
 :::
 ::: image
-![Oscar Corman](/static/img/oscar-corman.jpg){class="portrait" width="1632" height="2608" loading="lazy"}
+<img src="/static/img/oscar-corman-cropped.jpg?v=2" alt="Oscar Corman" class="portrait homepage-portrait" width="480" height="460" loading="lazy">
 :::
 :::
 :::

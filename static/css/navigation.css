@@ -1,6 +1,7 @@
 /* Navigation Bar Layout */
 .navbar {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     font-size: 1.2em;
     margin: 1em;
@@ -46,7 +47,12 @@
 .language-switch {
     display: flex;
     align-items: center;
-    gap: 1em;
+    justify-content: center;
+    gap: 1.25em;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    min-width: 0;
+    margin-right: 0;
 }
 
 .language-switch .nav-links {
@@ -110,8 +116,15 @@ html.dark-mode .logo:hover {
         display: inline-flex;
         width: auto;
     }
+    .language-switch {
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex: none;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
     .nav-theme-item {
-        order: -1;
+        margin-left: 0;
     }
     .nav-separator-item {
         padding: 0;
@@ -129,13 +142,19 @@ html.dark-mode .logo:hover {
 @media (hover: hover) and (min-width: 1100px) {
     .main-nav {
         display: flex;
+        flex: 1;
+        align-items: center;
+        min-width: 0;
+        margin-left: 2em;
         margin-right: 1em;
         flex-direction: row;
-        justify-content: flex-end;
+        justify-content: flex-start;
+        gap: 2em;
     }
     .nav-links {
-        margin-left: 2em;
+        margin-left: 0;
     }
+    .nav-theme-item { margin-left: auto; flex-shrink: 0; }
     .navbar-toggle {
         display: none;
     }

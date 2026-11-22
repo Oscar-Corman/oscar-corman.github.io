@@ -8,7 +8,6 @@
         if (link.classList.contains("crypted-mail")) link.textContent = address
     })
 })()
-
 // Mobile navigation toggle
 ;(function () {
     var menu = document.getElementById("js-menu")

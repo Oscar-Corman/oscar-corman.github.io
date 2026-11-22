@@ -1,17 +1,17 @@
 ---
-title: Oscar Corman
+title: Raum für verkörpertes Selbstbewusstsein
 slug: index
 lang: de
-description: "Praxis für verkörpertes Selbstbewusstsein."
+description: "Raum für verkörpertes Selbstbewusstsein. Entwicklungsorientierte Körperarbeit in Leipzig, Düsseldorf und Berlin."
 ---
 
 ::: article
 ::: paragraph
 ::: text
-Praxis für verkörpertes Selbstbewusstsein
+Entwicklungsorientierte Körperarbeit in Leipzig, Düsseldorf und Berlin
 :::
 ::: image
-![Oscar Corman](/static/img/oscar-corman.jpg){class="portrait" width="1632" height="2608" loading="lazy"}
+<img src="/static/img/oscar-corman-cropped.jpg?v=2" alt="Oscar Corman" class="portrait homepage-portrait" width="480" height="460" loading="lazy">
 :::
 :::
 :::
