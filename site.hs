@@ -115,7 +115,7 @@ escapedMetadataField :: String -> Context a
 escapedMetadataField key = field key $ \item -> escapeHtml <$> getMetadataField' (itemIdentifier item) key
 
 siteUrl :: String
-siteUrl = "https://oscarcorman.github.io"
+siteUrl = "https://oscar-corman.github.io"
 
 siteCtx :: Integer -> Context String
 siteCtx year =
