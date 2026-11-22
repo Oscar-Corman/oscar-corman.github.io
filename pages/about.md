@@ -6,7 +6,7 @@ description: ""
 page_class: about-page
 ---
 
-body work / self-awareness / nature-based solutions
+beziehungsarbeit / body work / self-awareness / nature-based solutions
 
 ich arbeite mit körperorientierten und achtsamkeitsbasierten methoden, um menschen in ihrer entwicklung zu begleitung.<br>
 ergänzt durch gespräche ist die unterstützung durch atem, bewegung und stimme die wichtigste und wirksamste methode.<br>
