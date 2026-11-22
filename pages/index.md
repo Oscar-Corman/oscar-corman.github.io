@@ -13,6 +13,14 @@ entwicklungsorientierte körperarbeit in leipzig und berlin
 &nbsp;
 
 willkommen auf meiner internetpräsenz. ich freue mich über deinen besuch. schau dich gerne um.
+
+&nbsp;
+
+I also offer my work in English and Italian – please see the respective pages for further details.
+
+&nbsp;
+
+Offro il mio lavoro anche in inglese e in italiano – per maggiori informazioni, consulta le rispettive pagine.
 :::
 ::: image
 <img src="/static/img/oscar-corman-cropped.jpg?v=2" alt="Oscar Corman" class="portrait homepage-portrait" width="480" height="460" loading="lazy">
