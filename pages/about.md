@@ -9,7 +9,7 @@ page_class: about-page
 beziehungsarbeit / bodywork / self-awareness / nature-based practices
 
 ich arbeite mit körperorientierten und achtsamkeitsbasierten methoden, um menschen in ihrer entwicklung zu begleiten.<br>
-ergänzt durch gespräche ist die unterstützung durch atem, bewegung und stimme die wichtigste grundlage.<br>
+ergänzt mit gesprächen ist die unterstützung von atem, bewegung und stimme meine wichtigste grundlage.<br>
 wahlweise erfolgt dies mit oder ohne direkte berührung und körperkontakt.
 
 mit erkenntnissen aus gesundheits- und neurowissenschaften, philosophie und spiritueller praxis unterstütze ich im umgang mit krisenhaften situationen und anstehenden lebensaufgaben.
