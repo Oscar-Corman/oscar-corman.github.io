@@ -30,8 +30,25 @@ h3 {
     margin-bottom: 0;
 }
 
+.language-page .content {
+    width: 70%;
+    justify-self: center;
+}
+
+.language-page .content p {
+    margin-bottom: 1.5em;
+}
+
+.language-page .content p:last-child {
+    margin-bottom: 0;
+}
+
 @media (max-width: 1199px) {
     .about-page .content {
+        width: 90%;
+        justify-self: center;
+    }
+    .language-page .content {
         width: 90%;
         justify-self: center;
     }

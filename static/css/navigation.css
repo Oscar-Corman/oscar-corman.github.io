@@ -156,13 +156,13 @@ html.dark-mode .logo:hover {
         min-width: 0;
         margin: 0 1em 0 0;
         flex-direction: row;
-        justify-content: flex-start;
+        justify-content: flex-end;
         gap: 2em;
     }
     .nav-links {
         margin-left: 0;
     }
-    .nav-theme-item { margin-left: auto; flex-shrink: 0; }
+    .nav-theme-item { margin-left: 1.5em; flex-shrink: 0; }
     .navbar-toggle {
         display: none;
     }
