@@ -8,7 +8,7 @@
 set -euo pipefail
 
 readonly REPO="Oscar-Corman/oscarcorman.github.io"
-readonly GH_USER="pnd-lerlenbach"
+readonly GH_USER="Oscar-Corman"
 readonly BRANCH="hakyll"
 readonly WORKFLOW="deploy.yml"
 readonly SITE_URL="https://oscarcorman.github.io/"
@@ -26,10 +26,8 @@ GH="$(command -v gh)" || die "gh CLI not found"
 "$GH" auth token --user "$GH_USER" >/dev/null 2>&1 \
   || die "gh has no login for $GH_USER. Run 'gh auth login', then 'gh auth switch' back to your work account."
 
-# The global git config hands github.com credentials to whichever gh account
-# is active (the work account). Pin this clone to the private account instead,
-# so nobody has to 'gh auth switch'. Lives in .git/config, so a fresh clone
-# gets it on its first deploy.
+# Pin this clone to the repository owner's account so Git pushes use the
+# correct credentials without changing the active gh account.
 ensure_push_credential() {
   git config --local --get-all "$CRED_KEY" 2>/dev/null | grep -q "user $GH_USER" && return
   git config --local --unset-all "$CRED_KEY" 2>/dev/null || true
