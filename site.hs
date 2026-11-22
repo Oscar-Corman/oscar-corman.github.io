@@ -115,20 +115,14 @@ escapedMetadataField :: String -> Context a
 escapedMetadataField key = field key $ \item -> escapeHtml <$> getMetadataField' (itemIdentifier item) key
 
 siteUrl :: String
-siteUrl = "https://lukaserlenbach.github.io"
+siteUrl = "https://oscarcorman.github.io"
 
 siteCtx :: Integer -> Context String
 siteCtx year =
-  constField "site_name"          "lukas erlenbach"
-    <> constField "author_name"        "Lukas Erlenbach"
+  constField "site_name"          "portfolio"
+    <> constField "author_name"        "Portfolio"
     <> constField "site_url"           siteUrl
     <> constField "copyright_year"     (show year)
-    <> constField "github_username"    "LukasErlenbach"
-    <> constField "linkedin_username"  "lukas-erlenbach"
-    <> constField "email_username"     "lukaserlenbach"
-    <> constField "email_domain"       "gmail"
-    <> constField "email_tld"          "com"
-    <> constField "google_site_verification" "wEjUQsgPLHLH2f8ey9_OG62PzRpH55Tku4Q6Pmle3ak"
     <> escapedMetadataField "title"
     <> escapedMetadataField "description"
     <> canonicalPathField

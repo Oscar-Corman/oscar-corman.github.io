@@ -7,11 +7,11 @@
 #   ./deploy.sh --yes  no prompt (agent runs)
 set -euo pipefail
 
-readonly REPO="LukasErlenbach/lukaserlenbach.github.io"
-readonly GH_USER="LukasErlenbach"
+readonly REPO="Oscar-Corman/oscarcorman.github.io"
+readonly GH_USER="pnd-lerlenbach"
 readonly BRANCH="hakyll"
 readonly WORKFLOW="deploy.yml"
-readonly SITE_URL="https://lukaserlenbach.github.io/"
+readonly SITE_URL="https://oscarcorman.github.io/"
 readonly CRED_KEY="credential.https://github.com.helper"
 
 cd "$(dirname "$0")"
