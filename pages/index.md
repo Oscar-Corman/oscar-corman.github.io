@@ -2,6 +2,7 @@
 title: Raum für verkörpertes Selbstbewusstsein
 slug: index
 lang: de
+hide_heading: true
 description: "Raum für verkörpertes Selbstbewusstsein. Entwicklungsorientierte Körperarbeit in Leipzig, Düsseldorf und Berlin."
 ---
 

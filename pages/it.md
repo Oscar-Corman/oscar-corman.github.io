@@ -2,6 +2,7 @@
 title: Consapevolezza Incarnata
 slug: it
 lang: it
+hide_heading: true
 description: "Consapevolezza Incarnata. Percorsi per la sicurezza e la presenza di sé."
 ---
 

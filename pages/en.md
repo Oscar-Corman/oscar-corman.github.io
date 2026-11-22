@@ -2,6 +2,7 @@
 title: Embodied Confidence & Self-Awareness
 slug: en
 lang: en
+hide_heading: true
 description: "Embodied Confidence & Self-Awareness. Somatic Practice & Body Work."
 ---
 
