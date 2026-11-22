@@ -16,11 +16,11 @@ willkommen auf meiner internetpräsenz. ich freue mich über deinen besuch. scha
 
 &nbsp;
 
-I also offer my work in English and Italian – please see the respective pages for further details.
+i also offer my work in english and italian – please see the respective pages for further details.
 
 &nbsp;
 
-Offro il mio lavoro anche in inglese e in italiano – per maggiori informazioni, consulta le rispettive pagine.
+offro il mio lavoro anche in inglese e in italiano – per maggiori informazioni, consulta le rispettive pagine.
 :::
 ::: image
 <img src="/static/img/oscar-corman-cropped.jpg?v=2" alt="Oscar Corman" class="portrait homepage-portrait" width="480" height="460" loading="lazy">
