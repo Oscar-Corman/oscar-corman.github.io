@@ -1,5 +1,5 @@
 ---
-title: über mich und meine arbeit
+title: über meine arbeit
 slug: about
 lang: de
 description: ""

@@ -159,6 +159,9 @@ html.dark-mode .logo:hover {
         justify-content: flex-end;
         gap: 2em;
     }
+    .nav-about-me-item {
+        margin-right: auto;
+    }
     .nav-links {
         margin-left: 0;
     }
